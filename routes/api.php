@@ -27,3 +27,5 @@ Route::group(['middleware' => ['CheckClientCredentials','auth:api']], function()
     Route::post('logout', 'FrontEnd\API\UserController@logout');
     Route::post('details', 'FrontEnd\API\UserController@details');
 });
+
+

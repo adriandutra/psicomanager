@@ -27,3 +27,5 @@ Route::post('/login', 'FrontEnd\Statical\UserController@login');
 
 
 
+
+
