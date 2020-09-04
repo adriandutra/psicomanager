@@ -25,6 +25,8 @@ Route::get('/plan', 'HomeController@plan');
 
 Route::post('/login', 'FrontEnd\Statical\UserController@login');
 
+Route::get('/patient', 'BackEnd\Statical\PatientController@getIndex');
+
 
 
 

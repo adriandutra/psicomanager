@@ -24,8 +24,8 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+          <li id="li-home" class="nav-item menu-open">
+            <a href="#" id="a-home" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Inicio
@@ -33,10 +33,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="{{url('/patient')}}" id="patient" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>
-                Clientes
+                Pacientes
               </p>
             </a>
           </li>
